@@ -1,0 +1,33 @@
+{
+  "name": "kairos-web",
+  "version": "1.0.0",
+  "description": "Página web para mostrás la información de la empresa Kairós ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haroldj10/kairos.git"
+  },
+  "keywords": [
+    "Agricultura",
+    "Distribución",
+    "Asistencia",
+    "técnica",
+    "a",
+    "cultivos"
+  ],
+  "author": "Aparicio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haroldj10/kairos/issues"
+  },
+  "homepage": "https://github.com/haroldj10/kairos#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  }
+}
