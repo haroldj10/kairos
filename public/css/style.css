@@ -1,0 +1,49 @@
+#menu-principal {
+    background-color: #20c997;
+}
+
+.navbar-karios {
+    padding-right: 8%;
+    height: 80px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.13);
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.logo-principal {
+    padding-left: 8%;
+}
+
+.texto-menu-nav {
+    color: rgb(40 86 108);
+    margin-left: 20px;
+}
+
+.section-kairos {
+    background-color: rgb(164, 212, 179);
+    margin-top: 100px;
+    width: 85%;
+}
+
+
+.inicio-kairos {
+    margin-top: 100px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  .portada-contactos-kairos {
+    margin-top: 100px;
+    border-radius: 0%;
+  }
