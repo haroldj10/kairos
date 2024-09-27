@@ -18,10 +18,15 @@ app.use('/imges', express.static(path.join(__dirname, 'public/images')));
 
 // Ruta para la página principal
 
-
-app.listen(3000, () => {
-  console.log('Servidor escuchando en http://localhost:3000');
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  console.log(`App listening on port ${port}`);
 });
+
+
+// app.listen(3000, () => {
+//   console.log('Servidor escuchando en http://localhost:3000');
+// });
 
 app.get('/', (req, res) => {
   res.render('index', { title: 'Kairós', message: '¡Hola, mundo!' });
