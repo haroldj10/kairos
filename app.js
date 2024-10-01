@@ -6,15 +6,15 @@ const app = express();
 
 // Configurar EJS como motor de vistas
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'docs/views'));
 
 // Servir archivos estáticos de Bootstrap
 app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')));
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
 app.use('/font', express.static(path.join(__dirname, 'node_modules/bootstrap-icons/font')));
-app.use('/css', express.static(path.join(__dirname, 'public/css')));
+app.use('/css', express.static(path.join(__dirname, 'docs/css')));
 
-app.use('/imges', express.static(path.join(__dirname, 'public/images')));
+app.use('/imges', express.static(path.join(__dirname, 'docs/images')));
 
 // Ruta para la página principal
 
